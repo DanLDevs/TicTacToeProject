@@ -18,8 +18,25 @@ namespace TicTacToe
         public Form1()
         {
             InitializeComponent();
-            RandomizeBoard(); // Call the function to randomize the board
+            int winner = -1; // Initialize winner variable
+
+            while (winner == -1) // Loop until a winner is found
+            {
+                RandomizeBoard(); // Call the function to randomize the board
+                winner = CheckWinner(); // Check for a winner
+            }
+            
             UpdateLabels(); // Update the labels to reflect the initial board state
+
+            // Display the result based on the winner
+            if (winner == 1)
+            {
+                labelResult.Text = "X is the winner!";
+            }
+            else
+            {
+                labelResult.Text = "O is the winner!";
+            }
         }
 
         // Create function to randomize cell numbers
@@ -53,6 +70,43 @@ namespace TicTacToe
                     }
                 }
             }
+        }
+
+        // Helper method to ensure there is a winner
+        // Returns 1 for "X", 0 for "O", and -1 for no winner
+        private int CheckWinner()
+        {
+            // Check rows
+            for (int i = 0; i < 3; i++)
+            {
+                if (board[i, 0] == board[i, 1] && board[i, 1] == board[i, 2])
+                {
+                    return board[i, 0]; // Return the winner (1 or 0)
+                }
+            }
+
+            // Check columns
+            for (int j = 0; j < 3; j++)
+            {
+                if (board[0, j] == board[1, j] && board[1, j] == board[2, j])
+                {
+                    return board[0, j]; // Return the winner (1 or 0)
+                }
+            }
+
+            // Check diagonals
+            if (board[0, 0] == board[1, 1] && board[1, 1] == board[2, 2])
+            {
+                return board[0, 0]; // Return the winner (1 or 0)
+            }
+
+            if (board[0, 2] == board[1, 1] && board[1, 1] == board[2, 0])
+            {
+                return board[0, 2]; // Return the winner (1 or 0)
+            }
+
+            // No winner found
+            return -1;
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
