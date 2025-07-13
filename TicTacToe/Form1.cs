@@ -217,10 +217,5 @@ namespace TicTacToe
         {
             StartNewGame(); // Start a new game when the button is clicked
         }
-
-        private void labelGameCounter_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

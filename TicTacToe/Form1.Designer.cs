@@ -150,7 +150,7 @@
             // labelResult
             // 
             this.labelResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResult.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelResult.Location = new System.Drawing.Point(31, 350);
             this.labelResult.MaximumSize = new System.Drawing.Size(250, 20);
             this.labelResult.Name = "labelResult";
@@ -160,9 +160,10 @@
             // 
             // buttonNewGame
             // 
-            this.buttonNewGame.Location = new System.Drawing.Point(67, 395);
+            this.buttonNewGame.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNewGame.Location = new System.Drawing.Point(62, 395);
             this.buttonNewGame.Name = "buttonNewGame";
-            this.buttonNewGame.Size = new System.Drawing.Size(75, 23);
+            this.buttonNewGame.Size = new System.Drawing.Size(80, 23);
             this.buttonNewGame.TabIndex = 10;
             this.buttonNewGame.Text = "New Game";
             this.buttonNewGame.UseVisualStyleBackColor = true;
@@ -170,6 +171,7 @@
             // 
             // buttonExit
             // 
+            this.buttonExit.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonExit.Location = new System.Drawing.Point(148, 395);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
@@ -180,15 +182,16 @@
             // 
             // labelGameCounter
             // 
-            this.labelGameCounter.Location = new System.Drawing.Point(177, 9);
+            this.labelGameCounter.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGameCounter.Location = new System.Drawing.Point(153, 9);
             this.labelGameCounter.Name = "labelGameCounter";
-            this.labelGameCounter.Size = new System.Drawing.Size(100, 23);
+            this.labelGameCounter.Size = new System.Drawing.Size(124, 23);
             this.labelGameCounter.TabIndex = 12;
             this.labelGameCounter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelGameCounter.Click += new System.EventHandler(this.labelGameCounter_Click);
             // 
             // labelCopyright
             // 
+            this.labelCopyright.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCopyright.Location = new System.Drawing.Point(31, 434);
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(223, 37);
@@ -198,14 +201,14 @@
             // 
             // textBoxPlayerO
             // 
-            this.textBoxPlayerO.Location = new System.Drawing.Point(153, 64);
+            this.textBoxPlayerO.Location = new System.Drawing.Point(153, 53);
             this.textBoxPlayerO.Name = "textBoxPlayerO";
             this.textBoxPlayerO.Size = new System.Drawing.Size(100, 20);
             this.textBoxPlayerO.TabIndex = 14;
             // 
             // textBoxPlayerX
             // 
-            this.textBoxPlayerX.Location = new System.Drawing.Point(34, 64);
+            this.textBoxPlayerX.Location = new System.Drawing.Point(34, 53);
             this.textBoxPlayerX.Name = "textBoxPlayerX";
             this.textBoxPlayerX.Size = new System.Drawing.Size(100, 20);
             this.textBoxPlayerX.TabIndex = 15;
@@ -213,18 +216,20 @@
             // labelPlayerXName
             // 
             this.labelPlayerXName.AutoSize = true;
-            this.labelPlayerXName.Location = new System.Drawing.Point(34, 45);
+            this.labelPlayerXName.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPlayerXName.Location = new System.Drawing.Point(31, 34);
             this.labelPlayerXName.Name = "labelPlayerXName";
-            this.labelPlayerXName.Size = new System.Drawing.Size(80, 13);
+            this.labelPlayerXName.Size = new System.Drawing.Size(103, 16);
             this.labelPlayerXName.TabIndex = 16;
             this.labelPlayerXName.Text = "Player X Name:";
             // 
             // labelPlayerOName
             // 
             this.labelPlayerOName.AutoSize = true;
-            this.labelPlayerOName.Location = new System.Drawing.Point(150, 45);
+            this.labelPlayerOName.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPlayerOName.Location = new System.Drawing.Point(149, 34);
             this.labelPlayerOName.Name = "labelPlayerOName";
-            this.labelPlayerOName.Size = new System.Drawing.Size(81, 13);
+            this.labelPlayerOName.Size = new System.Drawing.Size(105, 16);
             this.labelPlayerOName.TabIndex = 17;
             this.labelPlayerOName.Text = "Player O Name:";
             // 
@@ -232,6 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(283, 485);
             this.Controls.Add(this.labelPlayerOName);
             this.Controls.Add(this.labelPlayerXName);
