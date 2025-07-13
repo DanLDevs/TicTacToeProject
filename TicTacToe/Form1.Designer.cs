@@ -42,15 +42,17 @@
             this.buttonExit = new System.Windows.Forms.Button();
             this.labelGameCounter = new System.Windows.Forms.Label();
             this.labelCopyright = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxPlayerO = new System.Windows.Forms.TextBox();
+            this.textBoxPlayerX = new System.Windows.Forms.TextBox();
+            this.labelPlayerXName = new System.Windows.Forms.Label();
+            this.labelPlayerOName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label00
             // 
             this.label00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label00.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label00.Location = new System.Drawing.Point(28, 67);
+            this.label00.Location = new System.Drawing.Point(31, 94);
             this.label00.MaximumSize = new System.Drawing.Size(100, 100);
             this.label00.Name = "label00";
             this.label00.Size = new System.Drawing.Size(70, 70);
@@ -61,7 +63,7 @@
             // 
             this.label02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label02.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label02.Location = new System.Drawing.Point(180, 67);
+            this.label02.Location = new System.Drawing.Point(183, 94);
             this.label02.MaximumSize = new System.Drawing.Size(100, 100);
             this.label02.Name = "label02";
             this.label02.Size = new System.Drawing.Size(70, 70);
@@ -72,7 +74,7 @@
             // 
             this.label01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label01.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label01.Location = new System.Drawing.Point(104, 67);
+            this.label01.Location = new System.Drawing.Point(107, 94);
             this.label01.MaximumSize = new System.Drawing.Size(100, 100);
             this.label01.Name = "label01";
             this.label01.Size = new System.Drawing.Size(70, 70);
@@ -83,7 +85,7 @@
             // 
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(180, 148);
+            this.label12.Location = new System.Drawing.Point(183, 175);
             this.label12.MaximumSize = new System.Drawing.Size(100, 100);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 70);
@@ -94,7 +96,7 @@
             // 
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(104, 148);
+            this.label11.Location = new System.Drawing.Point(107, 175);
             this.label11.MaximumSize = new System.Drawing.Size(100, 100);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 70);
@@ -105,7 +107,7 @@
             // 
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(28, 148);
+            this.label10.Location = new System.Drawing.Point(31, 175);
             this.label10.MaximumSize = new System.Drawing.Size(100, 100);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(70, 70);
@@ -116,7 +118,7 @@
             // 
             this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(104, 229);
+            this.label21.Location = new System.Drawing.Point(107, 256);
             this.label21.MaximumSize = new System.Drawing.Size(100, 100);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(70, 70);
@@ -127,7 +129,7 @@
             // 
             this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(180, 229);
+            this.label22.Location = new System.Drawing.Point(183, 256);
             this.label22.MaximumSize = new System.Drawing.Size(100, 100);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(70, 70);
@@ -138,7 +140,7 @@
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(28, 229);
+            this.label20.Location = new System.Drawing.Point(31, 256);
             this.label20.MaximumSize = new System.Drawing.Size(100, 100);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(70, 70);
@@ -149,7 +151,7 @@
             // 
             this.labelResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelResult.Location = new System.Drawing.Point(28, 323);
+            this.labelResult.Location = new System.Drawing.Point(31, 350);
             this.labelResult.MaximumSize = new System.Drawing.Size(250, 20);
             this.labelResult.Name = "labelResult";
             this.labelResult.Size = new System.Drawing.Size(223, 20);
@@ -158,7 +160,7 @@
             // 
             // buttonNewGame
             // 
-            this.buttonNewGame.Location = new System.Drawing.Point(64, 368);
+            this.buttonNewGame.Location = new System.Drawing.Point(67, 395);
             this.buttonNewGame.Name = "buttonNewGame";
             this.buttonNewGame.Size = new System.Drawing.Size(75, 23);
             this.buttonNewGame.TabIndex = 10;
@@ -168,7 +170,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(145, 368);
+            this.buttonExit.Location = new System.Drawing.Point(148, 395);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
             this.buttonExit.TabIndex = 11;
@@ -187,38 +189,54 @@
             // 
             // labelCopyright
             // 
-            this.labelCopyright.Location = new System.Drawing.Point(28, 407);
+            this.labelCopyright.Location = new System.Drawing.Point(31, 434);
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(223, 37);
             this.labelCopyright.TabIndex = 13;
             this.labelCopyright.Text = "Programmed by Daniel Lai - Copyright @2025 All Rights Reserved";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // textBoxPlayerO
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Player X";
+            this.textBoxPlayerO.Location = new System.Drawing.Point(153, 64);
+            this.textBoxPlayerO.Name = "textBoxPlayerO";
+            this.textBoxPlayerO.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPlayerO.TabIndex = 14;
             // 
-            // label2
+            // textBoxPlayerX
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Player O";
+            this.textBoxPlayerX.Location = new System.Drawing.Point(34, 64);
+            this.textBoxPlayerX.Name = "textBoxPlayerX";
+            this.textBoxPlayerX.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPlayerX.TabIndex = 15;
+            // 
+            // labelPlayerXName
+            // 
+            this.labelPlayerXName.AutoSize = true;
+            this.labelPlayerXName.Location = new System.Drawing.Point(34, 45);
+            this.labelPlayerXName.Name = "labelPlayerXName";
+            this.labelPlayerXName.Size = new System.Drawing.Size(80, 13);
+            this.labelPlayerXName.TabIndex = 16;
+            this.labelPlayerXName.Text = "Player X Name:";
+            // 
+            // labelPlayerOName
+            // 
+            this.labelPlayerOName.AutoSize = true;
+            this.labelPlayerOName.Location = new System.Drawing.Point(150, 45);
+            this.labelPlayerOName.Name = "labelPlayerOName";
+            this.labelPlayerOName.Size = new System.Drawing.Size(81, 13);
+            this.labelPlayerOName.TabIndex = 17;
+            this.labelPlayerOName.Text = "Player O Name:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(283, 453);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(283, 485);
+            this.Controls.Add(this.labelPlayerOName);
+            this.Controls.Add(this.labelPlayerXName);
+            this.Controls.Add(this.textBoxPlayerX);
+            this.Controls.Add(this.textBoxPlayerO);
             this.Controls.Add(this.labelCopyright);
             this.Controls.Add(this.labelGameCounter);
             this.Controls.Add(this.buttonExit);
@@ -256,8 +274,10 @@
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.Label labelGameCounter;
         private System.Windows.Forms.Label labelCopyright;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxPlayerO;
+        private System.Windows.Forms.TextBox textBoxPlayerX;
+        private System.Windows.Forms.Label labelPlayerXName;
+        private System.Windows.Forms.Label labelPlayerOName;
     }
 }
 

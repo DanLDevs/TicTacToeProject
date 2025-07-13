@@ -18,9 +18,15 @@ namespace TicTacToe
         // Counter to keep track of the number of games played
         private int gameCount = 0;
 
+        // Player name variables
+        private string playerXName = "X";
+        private string playerOName = "O";
+
         public Form1()
         {
             InitializeComponent();
+            textBoxPlayerX.Text = playerXName; // Set default player names in text boxes
+            textBoxPlayerO.Text = playerOName; // Set default player names in text boxes
             StartNewGame(); // Call the function to start a new game
         }
 
@@ -28,6 +34,10 @@ namespace TicTacToe
         private void StartNewGame()
         {
             ResetLabelColors(); // Reset all label colors to default
+
+            // Read player names from text boxes
+            playerXName = string.IsNullOrWhiteSpace(textBoxPlayerX.Text) ? "X" : textBoxPlayerX.Text;
+            playerOName = string.IsNullOrWhiteSpace(textBoxPlayerO.Text) ? "O" : textBoxPlayerO.Text;
 
             gameCount++; // Increment the game count
 
@@ -49,7 +59,7 @@ namespace TicTacToe
                 HighlightWinningCells(winningCells);
 
                 // Display the result based on the winner
-                labelResult.Text = winner == 1 ? "X is the winner!" : "O is the winner!";
+                labelResult.Text = winner == 1 ? playerXName + " is the winner!" : playerOName + " is the winner!";
             }
 
             // Call the function to display the game count
