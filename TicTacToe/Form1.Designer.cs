@@ -28,113 +28,135 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelTopLeft = new System.Windows.Forms.Label();
-            this.labelTopRight = new System.Windows.Forms.Label();
-            this.labelTopMiddle = new System.Windows.Forms.Label();
-            this.labelMiddleRight = new System.Windows.Forms.Label();
-            this.labelMiddleMiddle = new System.Windows.Forms.Label();
-            this.labelMiddleLeft = new System.Windows.Forms.Label();
-            this.labelBottomMiddle = new System.Windows.Forms.Label();
-            this.labelBottomRight = new System.Windows.Forms.Label();
-            this.labelBottomLeft = new System.Windows.Forms.Label();
+            this.label00 = new System.Windows.Forms.Label();
+            this.label02 = new System.Windows.Forms.Label();
+            this.label01 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.labelResult = new System.Windows.Forms.Label();
             this.buttonNewGame = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
+            this.labelGameCounter = new System.Windows.Forms.Label();
+            this.labelCopyright = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // labelTopLeft
+            // label00
             // 
-            this.labelTopLeft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelTopLeft.Location = new System.Drawing.Point(26, 40);
-            this.labelTopLeft.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelTopLeft.Name = "labelTopLeft";
-            this.labelTopLeft.Size = new System.Drawing.Size(70, 70);
-            this.labelTopLeft.TabIndex = 0;
+            this.label00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label00.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label00.Location = new System.Drawing.Point(29, 65);
+            this.label00.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label00.Name = "label00";
+            this.label00.Size = new System.Drawing.Size(70, 70);
+            this.label00.TabIndex = 0;
+            this.label00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelTopRight
+            // label02
             // 
-            this.labelTopRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelTopRight.Location = new System.Drawing.Point(178, 40);
-            this.labelTopRight.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelTopRight.Name = "labelTopRight";
-            this.labelTopRight.Size = new System.Drawing.Size(70, 70);
-            this.labelTopRight.TabIndex = 1;
+            this.label02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label02.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label02.Location = new System.Drawing.Point(181, 65);
+            this.label02.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label02.Name = "label02";
+            this.label02.Size = new System.Drawing.Size(70, 70);
+            this.label02.TabIndex = 1;
+            this.label02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelTopMiddle
+            // label01
             // 
-            this.labelTopMiddle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelTopMiddle.Location = new System.Drawing.Point(102, 40);
-            this.labelTopMiddle.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelTopMiddle.Name = "labelTopMiddle";
-            this.labelTopMiddle.Size = new System.Drawing.Size(70, 70);
-            this.labelTopMiddle.TabIndex = 2;
+            this.label01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label01.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label01.Location = new System.Drawing.Point(105, 65);
+            this.label01.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label01.Name = "label01";
+            this.label01.Size = new System.Drawing.Size(70, 70);
+            this.label01.TabIndex = 2;
+            this.label01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMiddleRight
+            // label12
             // 
-            this.labelMiddleRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelMiddleRight.Location = new System.Drawing.Point(178, 121);
-            this.labelMiddleRight.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelMiddleRight.Name = "labelMiddleRight";
-            this.labelMiddleRight.Size = new System.Drawing.Size(70, 70);
-            this.labelMiddleRight.TabIndex = 3;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(181, 146);
+            this.label12.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(70, 70);
+            this.label12.TabIndex = 3;
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMiddleMiddle
+            // label11
             // 
-            this.labelMiddleMiddle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelMiddleMiddle.Location = new System.Drawing.Point(102, 121);
-            this.labelMiddleMiddle.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelMiddleMiddle.Name = "labelMiddleMiddle";
-            this.labelMiddleMiddle.Size = new System.Drawing.Size(70, 70);
-            this.labelMiddleMiddle.TabIndex = 4;
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(105, 146);
+            this.label11.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(70, 70);
+            this.label11.TabIndex = 4;
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMiddleLeft
+            // label10
             // 
-            this.labelMiddleLeft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelMiddleLeft.Location = new System.Drawing.Point(26, 121);
-            this.labelMiddleLeft.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelMiddleLeft.Name = "labelMiddleLeft";
-            this.labelMiddleLeft.Size = new System.Drawing.Size(70, 70);
-            this.labelMiddleLeft.TabIndex = 5;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(29, 146);
+            this.label10.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(70, 70);
+            this.label10.TabIndex = 5;
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelBottomMiddle
+            // label21
             // 
-            this.labelBottomMiddle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelBottomMiddle.Location = new System.Drawing.Point(102, 202);
-            this.labelBottomMiddle.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelBottomMiddle.Name = "labelBottomMiddle";
-            this.labelBottomMiddle.Size = new System.Drawing.Size(70, 70);
-            this.labelBottomMiddle.TabIndex = 6;
+            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(105, 227);
+            this.label21.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(70, 70);
+            this.label21.TabIndex = 6;
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelBottomRight
+            // label22
             // 
-            this.labelBottomRight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelBottomRight.Location = new System.Drawing.Point(178, 202);
-            this.labelBottomRight.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelBottomRight.Name = "labelBottomRight";
-            this.labelBottomRight.Size = new System.Drawing.Size(70, 70);
-            this.labelBottomRight.TabIndex = 7;
+            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(181, 227);
+            this.label22.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(70, 70);
+            this.label22.TabIndex = 7;
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelBottomLeft
+            // label20
             // 
-            this.labelBottomLeft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelBottomLeft.Location = new System.Drawing.Point(26, 202);
-            this.labelBottomLeft.MaximumSize = new System.Drawing.Size(100, 100);
-            this.labelBottomLeft.Name = "labelBottomLeft";
-            this.labelBottomLeft.Size = new System.Drawing.Size(70, 70);
-            this.labelBottomLeft.TabIndex = 8;
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(29, 227);
+            this.label20.MaximumSize = new System.Drawing.Size(100, 100);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(70, 70);
+            this.label20.TabIndex = 8;
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelResult
             // 
             this.labelResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelResult.Location = new System.Drawing.Point(26, 296);
+            this.labelResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResult.Location = new System.Drawing.Point(29, 321);
             this.labelResult.MaximumSize = new System.Drawing.Size(250, 20);
             this.labelResult.Name = "labelResult";
             this.labelResult.Size = new System.Drawing.Size(223, 20);
             this.labelResult.TabIndex = 9;
+            this.labelResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonNewGame
             // 
-            this.buttonNewGame.Location = new System.Drawing.Point(62, 341);
+            this.buttonNewGame.Location = new System.Drawing.Point(65, 366);
             this.buttonNewGame.Name = "buttonNewGame";
             this.buttonNewGame.Size = new System.Drawing.Size(75, 23);
             this.buttonNewGame.TabIndex = 10;
@@ -144,7 +166,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(143, 341);
+            this.buttonExit.Location = new System.Drawing.Point(146, 366);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
             this.buttonExit.TabIndex = 11;
@@ -152,23 +174,43 @@
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
+            // labelGameCounter
+            // 
+            this.labelGameCounter.Location = new System.Drawing.Point(178, 9);
+            this.labelGameCounter.MaximumSize = new System.Drawing.Size(100, 50);
+            this.labelGameCounter.Name = "labelGameCounter";
+            this.labelGameCounter.Size = new System.Drawing.Size(100, 15);
+            this.labelGameCounter.TabIndex = 12;
+            this.labelGameCounter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // labelCopyright
+            // 
+            this.labelCopyright.Location = new System.Drawing.Point(12, 399);
+            this.labelCopyright.Name = "labelCopyright";
+            this.labelCopyright.Size = new System.Drawing.Size(259, 30);
+            this.labelCopyright.TabIndex = 13;
+            this.labelCopyright.Text = "Programmed by Daniel Lai - Copyright @2025 All Rights Reserved";
+            this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(283, 376);
+            this.ClientSize = new System.Drawing.Size(283, 438);
+            this.Controls.Add(this.labelCopyright);
+            this.Controls.Add(this.labelGameCounter);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonNewGame);
             this.Controls.Add(this.labelResult);
-            this.Controls.Add(this.labelBottomLeft);
-            this.Controls.Add(this.labelBottomRight);
-            this.Controls.Add(this.labelBottomMiddle);
-            this.Controls.Add(this.labelMiddleLeft);
-            this.Controls.Add(this.labelMiddleMiddle);
-            this.Controls.Add(this.labelMiddleRight);
-            this.Controls.Add(this.labelTopMiddle);
-            this.Controls.Add(this.labelTopRight);
-            this.Controls.Add(this.labelTopLeft);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label01);
+            this.Controls.Add(this.label02);
+            this.Controls.Add(this.label00);
             this.Name = "Form1";
             this.Text = "Tic-Tac-Toe";
             this.ResumeLayout(false);
@@ -177,18 +219,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelTopLeft;
-        private System.Windows.Forms.Label labelTopRight;
-        private System.Windows.Forms.Label labelTopMiddle;
-        private System.Windows.Forms.Label labelMiddleRight;
-        private System.Windows.Forms.Label labelMiddleMiddle;
-        private System.Windows.Forms.Label labelMiddleLeft;
-        private System.Windows.Forms.Label labelBottomMiddle;
-        private System.Windows.Forms.Label labelBottomRight;
-        private System.Windows.Forms.Label labelBottomLeft;
+        private System.Windows.Forms.Label label00;
+        private System.Windows.Forms.Label label02;
+        private System.Windows.Forms.Label label01;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label labelResult;
         private System.Windows.Forms.Button buttonNewGame;
         private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Label labelGameCounter;
+        private System.Windows.Forms.Label labelCopyright;
     }
 }
 
