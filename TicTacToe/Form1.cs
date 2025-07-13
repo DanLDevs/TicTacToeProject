@@ -49,7 +49,7 @@ namespace TicTacToe
                     var label = this.Controls.Find(labelName, true).FirstOrDefault() as Label; // Find the label control by name
                     if (label != null)
                     {
-                        label.Text = board[i, j].ToString(); // Update the label text with the board value
+                        label.Text = board[i, j] == 1 ? "X" : "O"; // Update the label text with "X" for 1 and "O" for 0
                     }
                 }
             }
