@@ -48,7 +48,6 @@
             // 
             this.label00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label00.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label00.Location = new System.Drawing.Point(29, 65);
             this.label00.MaximumSize = new System.Drawing.Size(100, 100);
             this.label00.Name = "label00";
             this.label00.Size = new System.Drawing.Size(70, 70);
@@ -59,7 +58,6 @@
             // 
             this.label02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label02.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label02.Location = new System.Drawing.Point(181, 65);
             this.label02.MaximumSize = new System.Drawing.Size(100, 100);
             this.label02.Name = "label02";
             this.label02.Size = new System.Drawing.Size(70, 70);
@@ -70,7 +68,6 @@
             // 
             this.label01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label01.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label01.Location = new System.Drawing.Point(105, 65);
             this.label01.MaximumSize = new System.Drawing.Size(100, 100);
             this.label01.Name = "label01";
             this.label01.Size = new System.Drawing.Size(70, 70);
@@ -81,7 +78,6 @@
             // 
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(181, 146);
             this.label12.MaximumSize = new System.Drawing.Size(100, 100);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 70);
@@ -92,7 +88,6 @@
             // 
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(105, 146);
             this.label11.MaximumSize = new System.Drawing.Size(100, 100);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 70);
@@ -103,7 +98,6 @@
             // 
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(29, 146);
             this.label10.MaximumSize = new System.Drawing.Size(100, 100);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(70, 70);
@@ -114,7 +108,6 @@
             // 
             this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(105, 227);
             this.label21.MaximumSize = new System.Drawing.Size(100, 100);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(70, 70);
@@ -125,7 +118,6 @@
             // 
             this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(181, 227);
             this.label22.MaximumSize = new System.Drawing.Size(100, 100);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(70, 70);
@@ -136,7 +128,6 @@
             // 
             this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(29, 227);
             this.label20.MaximumSize = new System.Drawing.Size(100, 100);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(70, 70);

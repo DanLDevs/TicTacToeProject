@@ -32,6 +32,7 @@ namespace TicTacToe
             int winner = -1; // Initialize winner variable
             gameCount++; // Increment the game count
 
+
             while (winner == -1) // Loop until a winner is found
             {
                 RandomizeBoard(); // Call the function to randomize the board
