@@ -29,30 +29,27 @@ namespace TicTacToe
         {
             ResetLabelColors(); // Reset all label colors to default
 
-            int winner = -1; // Initialize winner variable
             gameCount++; // Increment the game count
 
-
-            while (winner == -1) // Loop until a winner is found
-            {
-                RandomizeBoard(); // Call the function to randomize the board
-                winner = CheckWinner(); // Check for a winner
-            }
+            RandomizeBoard(); // Call the function to randomize the board
+            int winner = CheckWinner(); // Check for a winner
 
             UpdateLabels(); // Update the labels to reflect the initial board 
-            List<(int, int)> winningCells = GetWinningCells(); // Get the winning cells
 
-            // Highlight the winning cells
-            HighlightWinningCells(winningCells);
-
-            // Display the result based on the winner
-            if (winner == 1)
+            // Check if there is no winner
+            if (winner == -1)
             {
-                labelResult.Text = "X is the winner!";
+                labelResult.Text = "No winner!"; // Display no winner
             }
-            else
+            else // Determine who won
             {
-                labelResult.Text = "O is the winner!";
+                List<(int, int)> winningCells = GetWinningCells(); // Get the winning cells
+
+                // Highlight the winning cells
+                HighlightWinningCells(winningCells);
+
+                // Display the result based on the winner
+                labelResult.Text = winner == 1 ? "X is the winner!" : "O is the winner!";
             }
 
             // Call the function to display the game count
